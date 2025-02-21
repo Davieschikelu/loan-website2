@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOANING</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <div class="navt">
+    <h2>Oreo Bank LTD</h2>
+</div>
+</nav>
+
+<div class="mak">
+<marquee behavior="alternate" direction="right"><p>Welcome to Oreo Bank Ltd Mobile Website.</p></marquee>
+</div>
+
+<div class="grid">
+    <div class="tra"></div>
+    <div class="item">
+        <form action="" onsubmit="handleSubmit(event)">
+        <div>
+        <div class="flex p gap">
+            <h2>Enter Loan Amount Required:</h2>
+            <input type="text" placeholder="  $" id="loanAmt">
+            
+        </div>
+        <span id="loanErr"></span>
+    </div>
+     <div>
+        <div class="flex p gap2">
+            <h2>Enter Current Account:</h2>
+            <input type="text" placeholder="  $" id="currentAcc">
+         </div>
+         <span id="currErr"></span>
+        </div>
+
+        <div>
+            <div class="flex p gap3">
+                <h2>6 Month Credit History:</h2>
+                <input type="text" name="" id="creditHis" placeholder="credit history">
+            </div>
+            <span id="creditErr"></span>
+        </div>
+        <div>
+            <div class="flex p gap4">
+                <h2>Last Deposit Date:</h2>
+                <input type="number" placeholder="  within a month" id="depositDate">
+                </div>
+                <span id="depositErr"></span>
+        </div>
+        <div>
+            <div class="flex p gap5">
+                <h2>Last Loan Collection Date:</h2>
+                <select name="" id="loanCol">
+                    <option value="">select an option</option>
+                    <option value="1">1 Months</option>
+                    <option value="2">2 Months</option>
+                    <option value="3">3 Months</option>
+                    <option value="4">4 Months</option>
+                    <option value="5">5 Months</option>
+                    <option value="6">6 Months</option>
+                    <option value="7">7 Months</option>
+                    <option value="8">8 Months</option>
+                    <option value="9">9 Months</option>
+                    <option value="10">10 Months</option>
+                    <option value="11">11 Months</option>
+                    <option value="12">12 Months</option>
+                </select>
+                 </div>
+            <span id="colErr"></span>
+        </div>
+
+     <div>
+      <div class="flex p gap6">
+        <h2>Loan Repayment Period:</h2>
+        <select name="" id="repayLoan">
+            <option value="">select an option</option>
+            <option value="1">1 Months</option>
+            <option value="2">2 Months</option>
+            <option value="3">3 Months</option>
+            <option value="4">4 Months</option>
+            <option value="5">5 Months</option>
+            <option value="6">6 Months</option>
+        </select>
+       </div>
+       <span id="repayErr"></span>
+    </div>
+
+    <div>
+        <div class="flex p gap7">
+            <h2>Account Type:</h2>
+            <select name="" id="accType">
+                <option value="">select an option</option>
+                <option value="current">Current</option>
+                <option value="savings">Savings</option>
+            </select>
+           </div>
+        <span id="typeErr"></span>
+    </div>
+
+
+
+    <button class="pin">SUMBIT</button>
+    <h2 id="awardLoan" class="p"></h2>
+</form>
+    </div>
+</div>
+
+
+
+<!-- 
+
+<div class="flex mag">
+   
+    <!-- Account Type 
+    
+</div>
+    <button onclick="submit()" class="pin">SUMBIT</button>
+
+    <h2 id="awardLoan" class="p"></h3>
+</div> -->
+
+
+<footer>
+    <p>Contact Us Whenever</p>
+</footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
