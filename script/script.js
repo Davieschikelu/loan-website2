@@ -1,6 +1,6 @@
 function handleSubmit(event){
     event.preventDefault();
-    let loanAmt = document.getElementById('loanAmt').value 
+    let loanAmt = document.getElementById('loanAmt').value
     let currentAcc = document.getElementById('currentAcc').value 
     let loanErr = document.getElementById('loanErr')
     let currErr = document.getElementById('currErr')
@@ -26,10 +26,10 @@ function handleSubmit(event){
         let sim = 0
         let som = 0
         let sym = 0
-    if(loanAmt == '' && currentAcc == ''){
-        loanErr.innerHTML = "**this field can't be empty**"
+    if(loanAmt == "" && currentAcc == ""){
+        loanErr.textContent = "**this field can't be empty**"
         currErr.innerHTML = "**this field can't be empty**"
-
+console.log("working")
     }else if(loanAmt > currentAcc){
        sum = point - 10
        console.log(sum)
