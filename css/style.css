@@ -38,6 +38,11 @@ gap: 100px;
     background-color: rgb(56, 120, 165);
     padding: 10px 10px;
 }
+.z span{
+    font-size: 12px;
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .tra{
     background-image: url(/images/bank-office-interior-professional-banking-600nw-1432952840.webp);
     height: 100%;
@@ -71,11 +76,6 @@ gap: 100px;
 .p{
     color: white;
     font-size: 1.2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.mag span{
-    font-size: 12px;
-    color: red;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .pin{
